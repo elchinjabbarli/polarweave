@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+  <title>POLARWEAVE — place poles, shape the field</title>
+  <meta name="description" content="A magnetic field-weaving puzzle. Place poles, align every crystal needle, keep the volatile crystals calm. 1000 levels.">
+  <meta name="theme-color" content="#0B0E14">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon-180.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Polarweave">
+  <link rel="stylesheet" href="assets/style.css">
+  <style>
+    #splash{position:fixed;inset:0;background:#0B0E14;display:flex;align-items:center;justify-content:center;z-index:99;transition:opacity .6s}
+    #splash.off{opacity:0;pointer-events:none}
+    #splash .sp-title{font:700 20px/1 system-ui,sans-serif;letter-spacing:.42em;text-indent:.42em;color:#EAF2FF;animation:spPulse 1.6s ease-in-out infinite}
+    @keyframes spPulse{0%,100%{opacity:.4}50%{opacity:1}}
+  </style>
+</head>
+<body>
+  <canvas id="cv"></canvas>
+  <div id="app"></div>
+  <div id="modalRoot"></div>
+  <div id="toastRoot"></div>
+  <div id="adRoot"></div>
+  <div id="splash"><div class="sp-title">POLARWEAVE</div></div>
+  <script src="assets/game.js" defer></script>
+  <script>
+    if ('serviceWorker' in navigator && (location.protocol === 'https:' || ['localhost','127.0.0.1'].indexOf(location.hostname) >= 0)) {
+      window.addEventListener('load', function () { navigator.serviceWorker.register('sw.js').catch(function () {}); });
+    }
+  </script>
+</body>
+</html>

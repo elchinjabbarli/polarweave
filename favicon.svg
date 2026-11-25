@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#0B0E14"/>
+  <path d="M44 20 Q8 8 20 44" fill="none" stroke="#9FD8FF" stroke-opacity="0.4" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M44 20 Q56 56 20 44" fill="none" stroke="#9FD8FF" stroke-opacity="0.55" stroke-width="2.2" stroke-linecap="round"/>
+  <line x1="17" y1="17" x2="22" y2="12" stroke="#F5C86B" stroke-width="2.4" stroke-linecap="round"/>
+  <line x1="12" y1="28" x2="18" y2="24" stroke="#9FD8FF" stroke-width="2.2" stroke-linecap="round"/>
+  <line x1="40" y1="52" x2="46" y2="48" stroke="#F5C86B" stroke-width="2.4" stroke-linecap="round"/>
+  <line x1="50" y1="38" x2="54" y2="32" stroke="#9FD8FF" stroke-width="2.2" stroke-linecap="round"/>
+  <line x1="14" y1="50" x2="31" y2="33" stroke="#4FC3F7" stroke-width="9" stroke-linecap="round"/>
+  <line x1="31" y1="33" x2="49" y2="15" stroke="#FF6B5A" stroke-width="9" stroke-linecap="round"/>
+  <line x1="12.5" y1="51.5" x2="29" y2="35" stroke="#0A0D14" stroke-width="10.5" stroke-linecap="round"/>
+  <line x1="29" y1="35" x2="45.5" y2="18.5" stroke="#0A0D14" stroke-width="10.5" stroke-linecap="round" stroke-opacity="0.001"/>
+  <circle cx="20" cy="44" r="8.4" fill="#4FC3F7"/>
+  <circle cx="44" cy="20" r="8.4" fill="#FF6B5A"/>
+  <text x="44" y="23.4" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9.5" font-weight="800" fill="#0A0D14">N</text>
+  <text x="20" y="47.4" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9.5" font-weight="800" fill="#0A0D14">S</text>
+</svg>
